@@ -1,6 +1,6 @@
 # unity-humanoid
 
-![demo](/demo/demo.png)
+<img src="./demo/demo.png" width=400>
 
 ## Demo video
 
