@@ -13,3 +13,9 @@
 ## My original 3D models with Blender
 
 - [3D models](/blender)
+
+## References
+
+### Mixamo
+
+I have used animation clips from Mixamo in this project: https://www.mixamo.com/
