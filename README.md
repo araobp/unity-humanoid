@@ -6,11 +6,9 @@
 
 - [Unity-chan pushing a baby stroller](https://github.com/araobp/unity-humanoid/blob/main/demo/UnityChanPushingBabyStroller.mp4)
 
-## Requirements
-
-- [Unity-Chan!](https://assetstore.unity.com/packages/3d/characters/unity-chan-model-18705)
-
 ## Projects
+
+Requirements: [Unity-Chan!](https://assetstore.unity.com/packages/3d/characters/unity-chan-model-18705)
 
 - [Unity-chan pushing a baby stroller](https://github.com/araobp/unity-humanoid/tree/main/unity/BabyStroller)
 
