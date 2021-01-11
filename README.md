@@ -10,6 +10,6 @@
 
 - [Unity-chan pushing a baby stroller](https://github.com/araobp/unity-humanoid/tree/main/unity/BabyStroller)
 
-## My original 3D models with Blener
+## My original 3D models with Blender
 
 - [3D models](/blender)
