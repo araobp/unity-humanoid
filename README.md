@@ -1,4 +1,4 @@
-# unity-humanoid
+# Unity humanoid
 
 <img src="./demo/demo.png" width=400>
 
@@ -6,6 +6,6 @@
 
 - [Unity-chan pushing a baby stroller](https://github.com/araobp/unity-humanoid/blob/main/demo/UnityChanPushingBabyStroller.mp4)
 
-## Sub-projects
+## Projects
 
 - [Unity-chan pushing a baby stroller](https://github.com/araobp/unity-humanoid/tree/main/unity/BabyStroller)
