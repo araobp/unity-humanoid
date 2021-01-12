@@ -64,8 +64,10 @@ public class WalkAlongMarkers : MonoBehaviour
             {
                 // gameObject.GetComponent<Animator>().enabled = false;
                 animator.SetTrigger("Stay");
+                
                 door.GetComponent<Animator>().SetTrigger("Close");
                 babyStroller.GetComponent<Animator>().SetTrigger("Stuck");
+                
                 StartCoroutine(PostProcess(2F));
             }
         }
@@ -75,8 +77,11 @@ public class WalkAlongMarkers : MonoBehaviour
     {
         yield return new WaitForSeconds(time);
 
+        babyStroller.GetComponent<StrollWithMother>().enabled = false;
+
         Rigidbody rb = babyStroller.GetComponent<Rigidbody>();
         rb.constraints = RigidbodyConstraints.FreezeAll;
+        //Destroy(rb);
     }
 
 }

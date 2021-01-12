@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44480592, g: 0.49435794, b: 0.5735489, a: 1}
+  m_IndirectSpecularColor: {r: 0.3775134, g: 0.38689116, b: 0.36780956, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: d0dea5b827c8a524f82f1018043f7ab0,
+  m_LightingDataAsset: {fileID: 112000000, guid: c38e849a2b476cc44a156a31b4959975,
     type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -433,6 +433,9 @@ MonoBehaviour:
   markerStart: 1
   markerEnd: 4
   markerDistance: 1
+  sensitivity: 0.5
+  door: {fileID: 0}
+  babyStroller: {fileID: 0}
 --- !u!1 &533409144 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e17da2beda530b44b8871932e8c347c6,

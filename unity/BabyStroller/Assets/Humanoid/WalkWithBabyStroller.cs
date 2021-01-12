@@ -36,10 +36,13 @@ public class WalkWithBabyStroller : MonoBehaviour
 
     void OnAnimatorIK()
     {
-        animator.SetIKPositionWeight(AvatarIKGoal.LeftHand, leftHandPositionWeight);
-        animator.SetIKPositionWeight(AvatarIKGoal.RightHand, rightHandPositionWeight);
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Standing Idle"))
+        {
+            animator.SetIKPositionWeight(AvatarIKGoal.LeftHand, leftHandPositionWeight);
+            animator.SetIKPositionWeight(AvatarIKGoal.RightHand, rightHandPositionWeight);
 
-        animator.SetIKPosition(AvatarIKGoal.LeftHand, leftHandObj.position + leftHandPosAdjust);
-        animator.SetIKPosition(AvatarIKGoal.RightHand, rightHandObj.position + rightHandPosAdjust);
+            animator.SetIKPosition(AvatarIKGoal.LeftHand, leftHandObj.position + leftHandPosAdjust);
+            animator.SetIKPosition(AvatarIKGoal.RightHand, rightHandObj.position + rightHandPosAdjust);
+        }
     }
 }
