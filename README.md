@@ -10,7 +10,7 @@
 
 Requirements: [Unity-Chan!](https://assetstore.unity.com/packages/3d/characters/unity-chan-model-18705)
 
-- [Unity-chan pushing a baby stroller](https://github.com/araobp/unity-humanoid/tree/main/unity/BabyStroller)
+- [Baby stroller](https://github.com/araobp/unity-humanoid/tree/main/unity/BabyStroller)
 
 ## My original 3D models with Blender
 
@@ -20,7 +20,7 @@ Requirements: [Unity-Chan!](https://assetstore.unity.com/packages/3d/characters/
 
 ### Mixamo
 
-I have used animation clips from Mixamo in this project: https://www.mixamo.com/
+I have used animation clips and a 3D model "Stefani" from Mixamo in this project: https://www.mixamo.com/
 
 ### CC0Textures
 
