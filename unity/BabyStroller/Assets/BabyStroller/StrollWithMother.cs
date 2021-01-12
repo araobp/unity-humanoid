@@ -17,6 +17,9 @@ public class StrollWithMother : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(mother.transform.position.x, transform.position.y, mother.transform.position.z + distanceFromMother);
+        Vector3 pos = mother.transform.position + mother.transform.forward * distanceFromMother;
+
+        transform.position = new Vector3(pos.x, transform.position.y, pos.z);
+        transform.Rotate(transform.up, mother.transform.rotation.y - transform.rotation.y);
     }
 }

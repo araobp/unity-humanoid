@@ -12,8 +12,8 @@ public class WalkWithBabyStroller : MonoBehaviour
     Transform leftHandObj;
     Transform rightHandObj;
 
-    float leftHandPositionWeight = 0.9F;
-    float rightHandPositionWeight = 0.9F;
+    float leftHandPositionWeight = 1F;
+    float rightHandPositionWeight = 1F;
 
     public Vector3 leftHandPosAdjust = new Vector3(-0.06F, 0.08F, -0.11F);
     public Vector3 rightHandPosAdjust = new Vector3(0.06F, 0.08F, -0.11F);
