@@ -20,7 +20,7 @@ Requirements: [Unity-Chan!](https://assetstore.unity.com/packages/3d/characters/
 
 ### Mixamo
 
-I have used animation clips from Mixamo in this project: https://www.mixamo.com/
+I have used animation clips and a 3D model "Stefani" from Mixamo in this project: https://www.mixamo.com/
 
 ### CC0Textures
 
