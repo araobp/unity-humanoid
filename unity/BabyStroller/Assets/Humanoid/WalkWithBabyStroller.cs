@@ -28,21 +28,19 @@ public class WalkWithBabyStroller : MonoBehaviour
         rightHandObj = rightHand.transform;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void OnAnimatorIK()
     {
-        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Standing Idle"))
+        float t = Time.deltaTime;
+        
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Standing Idle"))
         {
-            animator.SetIKPositionWeight(AvatarIKGoal.LeftHand, leftHandPositionWeight);
-            animator.SetIKPositionWeight(AvatarIKGoal.RightHand, rightHandPositionWeight);
-
-            animator.SetIKPosition(AvatarIKGoal.LeftHand, leftHandObj.position + leftHandPosAdjust);
-            animator.SetIKPosition(AvatarIKGoal.RightHand, rightHandObj.position + rightHandPosAdjust);
+            if (leftHandPositionWeight >= 0) leftHandPositionWeight -= t;
+            if (rightHandPositionWeight >= 0) rightHandPositionWeight -= t;
         }
+        animator.SetIKPositionWeight(AvatarIKGoal.LeftHand, leftHandPositionWeight);
+        animator.SetIKPositionWeight(AvatarIKGoal.RightHand, rightHandPositionWeight);
+
+        animator.SetIKPosition(AvatarIKGoal.LeftHand, leftHandObj.position + leftHandPosAdjust);
+        animator.SetIKPosition(AvatarIKGoal.RightHand, rightHandObj.position + rightHandPosAdjust);
     }
 }
