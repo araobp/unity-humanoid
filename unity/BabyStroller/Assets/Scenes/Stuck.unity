@@ -1227,6 +1227,7 @@ GameObject:
   - component: {fileID: 757248192}
   - component: {fileID: 757248191}
   - component: {fileID: 757248195}
+  - component: {fileID: 757248196}
   m_Layer: 0
   m_Name: DoorRight
   m_TagString: Untagged
@@ -1324,6 +1325,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &757248196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757248190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81735f56157c57245a902034f92a563a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabled: 0
 --- !u!1 &768365740
 GameObject:
   m_ObjectHideFlags: 0
@@ -1468,7 +1482,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 10
+  field of view: 12
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -1493,13 +1507,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781751513}
-  m_LocalRotation: {x: 0.20369498, y: 0.61318946, z: -0.14741902, w: 0.7488489}
-  m_LocalPosition: {x: -29.32, y: 6.2, z: 7.82}
+  m_LocalRotation: {x: 0.00088901696, y: -0.512095, z: 0.001392555, w: 0.8589273}
+  m_LocalPosition: {x: -11, y: 1, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 29.069002, y: 79.117004, z: 1.9030001}
+  m_LocalEulerAnglesHint: {x: 0.16900001, y: -61.607002, z: 0.085}
 --- !u!1 &907536495 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1707547703366722792, guid: e17da2beda530b44b8871932e8c347c6,
@@ -1967,6 +1981,7 @@ GameObject:
   - component: {fileID: 1406201114}
   - component: {fileID: 1406201113}
   - component: {fileID: 1406201117}
+  - component: {fileID: 1406201118}
   m_Layer: 0
   m_Name: DoorLeft
   m_TagString: Untagged
@@ -2064,6 +2079,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1406201118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406201112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81735f56157c57245a902034f92a563a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabled: 0
 --- !u!1 &1641397040 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4519394066255949950, guid: e17da2beda530b44b8871932e8c347c6,
