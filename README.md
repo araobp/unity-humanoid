@@ -5,6 +5,7 @@
 ## Demo video
 
 - [Unity-chan pushing a baby stroller](https://github.com/araobp/unity-humanoid/blob/main/demo/UnityChanPushingBabyStroller.mp4)
+- [A baby car stuck in a door](https://github.com/araobp/unity-humanoid/blob/main/demo/StuckInTheDoor.mp4)
 
 ## Projects
 
