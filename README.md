@@ -29,8 +29,12 @@ Requirements: [Unity-Chan!](https://assetstore.unity.com/packages/3d/characters/
 
 ### Mixamo
 
-I have used animation clips and a 3D model "Stefani" from Mixamo in this project: https://www.mixamo.com/
+I have used animation clips and 3D models, "Stefani" and others, from Mixamo in this project: https://www.mixamo.com/
 
 ### CC0Textures
 
 I have used textures from this site: https://cc0textures.com/
+
+### 3D Warehouse
+
+I have used 3D models from 3D Warehouse: https://3dwarehouse.sketchup.com/
