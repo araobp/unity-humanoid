@@ -11,6 +11,8 @@
 /[Mm]emoryCaptures/
 
 /[Aa]ssets/unity-chan!/
+/[Aa]ssets/Standard Assets/
+/[Aa]ssets/SampleScenes/
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
