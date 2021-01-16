@@ -8,16 +8,11 @@ I have been a digital-twin creator since year 2020.
 
 I am working on human movement simulations these days. This project is a collection of my works in my spare time to learn 3D animations with Unity.
 
-## Demo video
-
-### My channel on YouTube
+## Demo video on YouTube
 
 - [Unity-chan pushing a baby stroller](https://youtu.be/cl6UpGPZEys)
+- [A baby car stuck in a door](https://youtu.be/um-spiRzK4k)
 - [Ladder climbing](https://youtu.be/gcNkXm_A9H8)
-
-### Other videos
-
-- [A baby car stuck in a door](./demo/StuckInTheDoor.mp4)
 
 ## Projects
 
