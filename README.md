@@ -19,7 +19,7 @@ I am working on human movement simulations these days. This project is a collect
 Requirements: [Unity-Chan!](https://assetstore.unity.com/packages/3d/characters/unity-chan-model-18705) and [Standard Assets](https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2018-4-32351)
 
 - [Baby stroller](./unity/BabyStroller)
-- [Ladder climbing](./unity/LadderClimbing)
+- [Ladder climbing](./unity/Ladder)
 
 ## My original 3D models with Blender
 
