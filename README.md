@@ -9,7 +9,7 @@
 
 ## Projects
 
-Requirements: [Unity-Chan!](https://assetstore.unity.com/packages/3d/characters/unity-chan-model-18705)
+Requirements: [Unity-Chan!](https://assetstore.unity.com/packages/3d/characters/unity-chan-model-18705) and [Standard Assets](https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2018-4-32351)
 
 - [Baby stroller](https://github.com/araobp/unity-humanoid/tree/main/unity/BabyStroller)
 
