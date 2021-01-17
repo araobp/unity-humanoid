@@ -8,10 +8,19 @@ public class SafetySensor : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log(collision);
+        Debug.Log(collision.collider.name);
         if (enabled)
         {
             gameObject.GetComponentInParent<Animator>().SetTrigger("Open");
+        } else
+        {
+            StartCoroutine(DisableRigidbody());
         }
+    }
+
+    IEnumerator DisableRigidbody()
+    {
+        yield return new WaitForSeconds(1);
+        GetComponentInParent<Rigidbody>().isKinematic = true;
     }
 }
