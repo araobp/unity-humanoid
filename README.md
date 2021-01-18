@@ -39,7 +39,3 @@ I have used textures from this site: https://cc0textures.com/
 ### 3D Warehouse
 
 I have used 3D models from 3D Warehouse: https://3dwarehouse.sketchup.com/
-
-### Point cloud
-
-I have used point cloud data from Shizuoka Point Cloud DB: https://pointcloud.pref.shizuoka.jp/lasmap/ankenmap
