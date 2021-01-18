@@ -12,6 +12,7 @@ I am working on human movement simulations these days. This project is a collect
 
 - [Unity-chan pushing a baby stroller](https://youtu.be/cl6UpGPZEys)
 - [A baby car stuck in the door](https://youtu.be/um-spiRzK4k)
+- [Pinch detection](https://youtu.be/ytygJGUO5nM)
 - [Ladder climbing](https://youtu.be/gcNkXm_A9H8)
 
 ## Projects
