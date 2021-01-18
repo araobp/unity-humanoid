@@ -12,6 +12,7 @@ I am working on human movement simulations these days. This project is a collect
 
 - [Unity-chan pushing a baby stroller](https://youtu.be/cl6UpGPZEys)
 - [A baby car stuck in the door](https://youtu.be/um-spiRzK4k)
+- [Pinch detection](https://youtu.be/ytygJGUO5nM)
 - [Ladder climbing](https://youtu.be/gcNkXm_A9H8)
 
 ## Projects
@@ -38,3 +39,7 @@ I have used textures from this site: https://cc0textures.com/
 ### 3D Warehouse
 
 I have used 3D models from 3D Warehouse: https://3dwarehouse.sketchup.com/
+
+### Point cloud
+
+I have used point cloud data from Shizuoka Point Cloud DB: https://pointcloud.pref.shizuoka.jp/lasmap/ankenmap
