@@ -96,9 +96,16 @@ public class DepthCamera : MonoBehaviour
                 float dr = c.r - ic.r;
                 float dg = c.g - ic.g;
                 float db = c.b - ic.b;
+                dr *= 2F;
+                dg *= 2F;
+                db *= 2F;
                 if (dr < 0F) dr = 0F;
                 if (dg < 0F) dg = 0F;
                 if (db < 0F) db = 0F;
+                if (dr > 1F) dr = 1F;
+                if (dg > 1F) dg = 1F;
+                if (db > 1F) db = 1F;
+
                 pixels[idx] = new Color(dr, dg, db);
             }
 
