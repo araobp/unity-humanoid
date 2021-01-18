@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stuck.unity
     guid: fada1f6c2ccd8d14dae1d1467a1a228a
+  - enabled: 1
+    path: Assets/Scenes/PinchDetection.unity
+    guid: 3f8475f69ec3cf042b6f4a56440d4d65
   m_configObjects: {}

@@ -20,6 +20,7 @@ public class Menu : MonoBehaviour
         AddOnClickListeners("Push");
         AddOnClickListeners("Walk");
         AddOnClickListeners("Stuck");
+        AddOnClickListeners("PinchDetection");
 
         GameObject.Find("ButtonQuit").GetComponent<Button>().onClick.AddListener(
             delegate { Application.Quit(); }
