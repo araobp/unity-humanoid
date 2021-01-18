@@ -822,7 +822,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Humanoid animations
+  m_Text: Baby stroller animations
 --- !u!222 &861320420
 CanvasRenderer:
   m_ObjectHideFlags: 0
