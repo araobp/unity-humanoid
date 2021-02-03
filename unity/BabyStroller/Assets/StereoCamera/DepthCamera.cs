@@ -16,6 +16,8 @@ public class DepthCamera : MonoBehaviour
     string m_imageSavePath;
     RenderTexture m_renderTexture;
 
+    public object UnityLoader { get; private set; }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,14 +33,15 @@ public class DepthCamera : MonoBehaviour
         m_imageSavePath = Application.dataPath + "/CapturedImages/";
 
         // Initialization
-        StartCoroutine(Init());
+        StartCoroutine("Init");
     }
 
     // Take an initial depth image 
     IEnumerator Init()
     {
-        yield return new WaitForSeconds(1F);  // One second after start up
-        Color[] pixels = Capture("capture");
+        yield return new WaitForSeconds(5F);  // One second after start up
+        //Color[] pixels = Capture("capture");
+        Color[] pixels = Capture();
         m_initialImage.SetPixels(pixels);
         m_initialImage.Apply();
 
