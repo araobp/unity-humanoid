@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{DB7AB250-2B55-EA48-85C4-20329ECE5038}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/WalkAlongMarkers.cs">
+    <Files>
+      <File FileName="Assets/WalkAlongMarkers.cs" Line="67" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Station" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="WalkAlongMarkers.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="31bcd6b9-781d-4f06-8cc7-298b8e87767d" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
