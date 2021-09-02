@@ -63,4 +63,9 @@ public class WalkAlongMarkers : MonoBehaviour
             }
         }
     }
+
+    public void Run()
+    {
+        animator.SetTrigger("Run");
+    }
 }
