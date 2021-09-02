@@ -3,69 +3,78 @@ using UnityEngine;
 
 public class WalkAlongMarkers : MonoBehaviour
 {
-    public int markerStart = 1;
-    public int markerEnd = 4;
+    public int m_MarkerStart = 1;
+    public int m_MarkerEnd = 4;
 
-    public float markerDistance = 1F;
-    public float sensitivity = 0.5F;
+    public float m_MarkerDistance = 1F;
+    public float m_Sensitivity = 2F;
 
-    List<Transform> markers = new List<Transform>();
+    List<Transform> m_Markers = new List<Transform>();
 
-    private Vector3 forward_a;
-    private Vector3 forward_b;
-    private float t = 0F;
+    private Vector3 m_Forward_a;
+    private Vector3 m_Forward_b;
+    private float m_T = 0F;
 
-    int idx = 0;
+    int m_Idx = 0;
 
-    Animator animator;
+    Animator m_Animator;
+    Vector3 m_OriginalPosition;
 
     // Start is called before the first frame update
     void Start()
     {
-        animator = GetComponent<Animator>();
+        m_OriginalPosition = transform.position;
+        m_Animator = GetComponent<Animator>();
 
         GameObject o = GameObject.FindGameObjectWithTag("Markers");
-        for (int num = markerStart; num <= markerEnd; num++)
+        for (int num = m_MarkerStart; num <= m_MarkerEnd; num++)
         {
-            markers.Add(o.transform.Find($"Marker{num}"));
+            m_Markers.Add(o.transform.Find($"Marker{num}"));
         }
 
-        var markerPos = markers[0].position;
+        var markerPos = m_Markers[0].position;
         var direction = markerPos - transform.position;
-        forward_b = new Vector3(direction.x, 0, direction.z);
-        forward_a = forward_b;
-        transform.forward = forward_a;
+        m_Forward_b = new Vector3(direction.x, 0, direction.z);
+        m_Forward_a = m_Forward_b;
+        transform.forward = m_Forward_a;
     }
 
     // Update is called once per frame
     void Update()
     {
-        t += Time.deltaTime * sensitivity;
-        var forward = Vector3.Lerp(forward_a, forward_b, t);
+        m_T += Time.deltaTime * m_Sensitivity;
+        var forward = Vector3.Lerp(m_Forward_a, m_Forward_b, m_T);
         transform.forward = forward;
 
-        var distance = (markers[idx].position - transform.position).magnitude;
+        var distance = (m_Markers[m_Idx].position - transform.position).magnitude;
 
-        if (distance < markerDistance)
+        if (distance < m_MarkerDistance)
         {
-            if (idx < (markers.Count - 1))
+            if (m_Idx < (m_Markers.Count - 1))
             {
-                idx++;
-                var markerPos = markers[idx].position;
+                m_Idx++;
+                var markerPos = m_Markers[m_Idx].position;
                 var direction = markerPos - transform.position;
-                forward_a = forward_b;
-                forward_b = new Vector3(direction.x, 0, direction.z);
-                t = 0F;
+                m_Forward_a = m_Forward_b;
+                m_Forward_b = new Vector3(direction.x, 0, direction.z);
+                m_T = 0F;
             }
             else
             {
-                animator.SetTrigger("Stay");
+                m_Animator.SetTrigger("Stay");
             }
         }
     }
 
     public void Run()
     {
-        animator.SetTrigger("Run");
+        m_Animator.SetTrigger("Run");
+    }
+
+    public void Reset()
+    {
+        m_Animator.SetTrigger("Stay");
+        transform.position = m_OriginalPosition;
+        m_Idx = 0;
     }
 }
