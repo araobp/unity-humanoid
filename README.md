@@ -14,6 +14,7 @@ I am working on human movement simulations these days. This project is a collect
 - [A baby car stuck in the door](https://youtu.be/um-spiRzK4k)
 - [Pinch detection](https://youtu.be/ytygJGUO5nM)
 - [Ladder climbing](https://youtu.be/gcNkXm_A9H8)
+- [Running on train platform](https://youtu.be/xICYinJU3u4)
 
 ## Projects
 
