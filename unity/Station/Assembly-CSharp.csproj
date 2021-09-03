@@ -59,7 +59,7 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/WalkAlongMarkers.cs" />
+    <Compile Include="Assets/RunAlongMarkers.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -656,9 +656,17 @@
       <Project>{E5FFB938-7639-2A9B-AE56-BDC1071D4078}</Project>
       <Name>Unity.VisualScripting.Flow.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Editor.csproj">
+      <Project>{B9EC0626-9BBA-1E1B-081B-2A43BA006081}</Project>
+      <Name>Unity.Recorder.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{6E119B5B-09A8-265F-A870-5F9098B40397}</Project>
       <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Base.csproj">
+      <Project>{FCCB80A8-8B9D-A37F-77D9-6C26687804F8}</Project>
+      <Name>Unity.Recorder.Base</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{504A2A22-751F-5FFC-D9B0-E45A09B5663C}</Project>
@@ -720,17 +728,9 @@
       <Project>{B128F51D-FB6E-41C4-F8E5-B0CC8D8EAD77}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Recorder.Editor.csproj">
-      <Project>{B9EC0626-9BBA-1E1B-081B-2A43BA006081}</Project>
-      <Name>Unity.Recorder.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Recorder.csproj">
       <Project>{1F67854E-01F2-A071-4BF1-CE8FDBBD5914}</Project>
       <Name>Unity.Recorder</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Recorder.Base.csproj">
-      <Project>{FCCB80A8-8B9D-A37F-77D9-6C26687804F8}</Project>
-      <Name>Unity.Recorder.Base</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

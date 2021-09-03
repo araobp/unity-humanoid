@@ -59,7 +59,7 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/WalkAlongMarkers.cs" />
+    <Compile Include="Assets/RunAlongMarkers.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -610,6 +610,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.Recorder.Base.csproj">
+      <Project>{FCCB80A8-8B9D-A37F-77D9-6C26687804F8}</Project>
+      <Name>Unity.Recorder.Base</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{7D841E67-7B97-1488-F0D0-28CA16E62793}</Project>
       <Name>Unity.Timeline</Name>
@@ -637,10 +641,6 @@
     <ProjectReference Include="Unity.Recorder.csproj">
       <Project>{1F67854E-01F2-A071-4BF1-CE8FDBBD5914}</Project>
       <Name>Unity.Recorder</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Recorder.Base.csproj">
-      <Project>{FCCB80A8-8B9D-A37F-77D9-6C26687804F8}</Project>
-      <Name>Unity.Recorder.Base</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

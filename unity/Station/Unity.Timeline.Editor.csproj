@@ -225,8 +225,8 @@
     <Compile Include="Library/PackageCache/com.unity.timeline@1.5.6/Editor/Animation/AnimationTrackActions.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.5.6/Editor/Utilities/Graphics.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.5.6/Editor/Recording/TimelineRecording_PlayableAsset.cs" />
-    <Compile Include="Library/PackageCache/com.unity.timeline@1.5.6/Editor/Utilities/SpacePartitioner.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.5.6/Editor/treeview/TrackGui/InlineCurveEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.timeline@1.5.6/Editor/Utilities/SpacePartitioner.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.5.6/Editor/inspectors/TimelineProjectSettings.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.5.6/Editor/Trackhead.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.5.6/Editor/Animation/CurveTreeViewNode.cs" />
