@@ -15,6 +15,7 @@ I am working on human movement simulations these days. This project is a collect
 - [Pinch detection](https://youtu.be/ytygJGUO5nM)
 - [Ladder climbing](https://youtu.be/gcNkXm_A9H8)
 - [Running on train platform](https://youtu.be/xICYinJU3u4)
+- [Walking on train platform](https://youtu.be/IXSC8B0Yoos)
 
 ## Projects
 
