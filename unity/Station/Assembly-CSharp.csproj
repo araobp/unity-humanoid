@@ -60,6 +60,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/RunAlongMarkers.cs" />
+    <Compile Include="Assets/WalkWithIK.cs" />
+    <Compile Include="Assets/WalkAlongMarkers.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
