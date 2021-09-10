@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{DB7AB250-2B55-EA48-85C4-20329ECE5038}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/WalkWithIK.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/WalkAlongMarkers.cs">
     <Files>
-      <File FileName="Assets/RunAlongMarkers.cs" Line="67" Column="1" />
+      <File FileName="Assets/RunAlongMarkers.cs" Line="80" Column="9" />
       <File FileName="Assets/WalkWithIK.cs" Line="9" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
