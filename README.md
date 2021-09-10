@@ -31,6 +31,8 @@ Requirements: [Unity-Chan!](https://assetstore.unity.com/packages/3d/characters/
 
 - [3D models](/blender)
 
+Note: The humanoid in YBot.blend is from Mixamo, and I just added an animation clip to the model.
+
 ## References
 
 ### Mixamo
